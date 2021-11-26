@@ -654,13 +654,13 @@ figure {
         var controls = [];
         for (var i=0; i<elements.length; i++) {
             if (i==0) {
-                var scene_name = 'https://raw.githubusercontent.com/cvpr4234/supp_material/master/shapenet_reconstruction/conv_occnet/' + objects[0]
+                var scene_name = 'https://raw.githubusercontent.com/nv-tlabs/nkf/main/assets/models/shapenet_reconstruction/conv_occnet/' + objects[0]
                 controls.push(show_object(elements[i], scene_name, N));
             } else if (i==1) {
-                var scene_name = 'https://raw.githubusercontent.com/cvpr4234/supp_material/master/shapenet_reconstruction/ours/' + objects[0]
+                var scene_name = 'https://raw.githubusercontent.com/nv-tlabs/nkf/main/assets/models/shapenet_reconstruction/ours/' + objects[0]
                 controls.push(show_object(elements[i], scene_name, N));
             } else {
-                var scene_name = 'https://raw.githubusercontent.com/cvpr4234/supp_material/master/shapenet_reconstruction/ground_truth/'  + objects[0]
+                var scene_name = 'https://raw.githubusercontent.com/nv-tlabs/nkf/main/assets/models/shapenet_reconstruction/ground_truth/'  + objects[0]
                 controls.push(show_object(elements[i], scene_name, N));
             }
         }
