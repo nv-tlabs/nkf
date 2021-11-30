@@ -1,6 +1,8 @@
-    @article{williams2021nkf,
-    author = {Francis williams and Zan Gojcic and Sameh Khamis and 
-                Denis Zorin and Joan Bruna and Sanja Fidler and Or Litany}
-    title = "{Neural Fields as Learnable Kernels for 3D Reconstruction}",
-    journal = {INSERT ARXIV ID},
-    year = {2021}}
+@misc{williams2021nkf,
+      title={Neural Fields as Learnable Kernels for 3D Reconstruction}, 
+      author={Francis Williams and Zan Gojcic and Sameh Khamis and Denis Zorin and Joan Bruna and Sanja Fidler and Or Litany},
+      year={2021},
+      eprint={2111.13674},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
